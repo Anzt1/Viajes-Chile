@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body * { 
@@ -6,9 +5,12 @@ body * {
     padding: 0;
     margin: 0;
 }
+body{
+    font-family:"Raleway", sans-serif;
+}
 .logo{
     width:4vw;
-    height: 4vh;
+    height:4vh;
 }
 .img-carusel{
     width: 100vw;
@@ -17,11 +19,14 @@ body * {
 .html{
     scroll-behavior: smooth;
 }
+.nav,.carousel{
+    width: 100vw;
+}
 #quienes_somos, #destacados, #form_contacto{
     padding-right: 10%;
     padding-left: 10%;
     background-color: #000000;
-    font-family: "Raleway", sans-serif;
+    width:100vw
 }
 .title1, .container_icon{
     text-align: center;
@@ -35,11 +40,14 @@ body * {
     padding: 0.25rem;
 }
 .img-card{
-    height: 11.8rem;
+    height: 12rem;
 }
 .card{
-    height:25rem;
+    height:26rem;
     overflow: hidden;
+}
+.card-title{
+    height: 3rem;
 }
 .card-body{
     background-color:#228BA0;
@@ -54,8 +62,4 @@ body * {
     height: 8vh; 
     padding-left: 20%;
     padding-right: 20%;
-    font-family: "Raleway", sans-serif;
-}
-.boton{
-    font-family: "Raleway", sans-serif;
 }
