@@ -14,7 +14,10 @@ body * {
     width: 100vw;
     height: 100vh;
 }
-.Quienes_somos, .destacados, .form_contacto{
+.html{
+    scroll-behavior: smooth;
+}
+#quienes_somos, #destacados, #form_contacto{
     padding-right: 10%;
     padding-left: 10%;
     background-color: #000000;
@@ -34,6 +37,25 @@ body * {
 .img-card{
     height: 11.8rem;
 }
+.card{
+    height:25rem;
+    overflow: hidden;
+}
+.card-body{
+    background-color:#228BA0;
+    color: #ffff;
+}
 .h-text{
     height: 10rem;
+}
+.footer{
+    background-color:#228BA0;
+    width: 100vw;
+    height: 8vh; 
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: "Raleway", sans-serif;
+}
+.boton{
+    font-family: "Raleway", sans-serif;
 }

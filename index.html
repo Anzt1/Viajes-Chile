@@ -23,9 +23,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-md-auto">
             <a class="nav-link text-white-50" href="#">Inicio</a>
-            <a class="nav-link text-white-50" href="#">Quiénes somos</a>
-            <a class="nav-link text-white-50" href="#">Destacados</a>
-            <a class="nav-link text-white-50" href="#">Contacto</a>
+            <a class="nav-link text-white-50" href="#quienes_somos">Quiénes somos</a>
+            <a class="nav-link text-white-50" href="#destacados">Destacados</a>
+            <a class="nav-link text-white-50" href="#form_contacto">Contacto</a>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
     </div>
     <!-- Término del carrusel -->
     <!-- Sección Quiénes somos -->
-    <section class="Quienes_somos">
+    <section id="quienes_somos" class="pb-5">
       <h1 class="title1 pt-5 pb-4 text-white">¿QUIÉNES SOMOS?</h1>
       <hr class="linea text-white">
       <article>
@@ -83,43 +83,43 @@
     </section>
     <!-- Término sección Quienes somos -->
     <!-- Inicio sección destacados -->
-    <section class="destacados">
+    <section id="destacados">
       <h1 class="title1 pt-5 pb-4 text-white">DESTACADOS</h1>
       <hr class="linea text-white">
       <div class="row pt-5 pb-5">
         <div class="col-xl-3">
-          <div class="card">
-            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+          <div class="card mb-4">
+            <img src="assets/img/card1.jpg" class="img-card card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+              <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lectus urna. Sed pellentesque lobortis malesuada.
               </p>
             </div>
           </div>
         </div>
         <div class="col-xl-3">
-          <div class="card">
+          <div class="card mb-4">
             <img src="assets/img/card2.jpg" class="img-card card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Consectetur adipiscing elit</h5>
+              <h5 class="card-title fw-bold">Consectetur adipiscing elit</h5>
               <p class="card-text">Aliquam condimentum odio sit amet suscipit feugiat. Curabitur et mauris sit amet ligula facilisis condimentum in quis nisi. Orci varius natoque penatibus.</p>
             </div>
           </div>
         </div>
         <div class="col-xl-3">
-          <div class="card">
-            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+          <div class="card mb-4">
+            <img src="assets/img/card3.jpg" class="img-card card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Curabitur eu lectus urna</h5>
+              <h5 class="card-title fw-bold">Curabitur eu lectus urna</h5>
               <p class="card-text">Mauris in dolor dignissim, faucibus sem vel, posuere mauris. Ut egestas tempor varius. Nullam id nisi orci. Nunc maximus ex velit. Quisque in mauris iaculis.</p>
             </div>
           </div>
         </div>
         <div class="col-xl-3">
-          <div class="card">
-            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+          <div class="card mb-4">
+            <img src="assets/img/card4.jpg" class="img-card card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Mauris eget tempus nunc</h5>
+              <h5 class="card-title fw-bold">Mauris eget tempus nunc</h5>
               <p class="card-text">Quisque fringilla libero vitae nibh convallis posuere at quis ante. Aliquam venenatis facilisis risus id hendrerit. Ut dictum, risus vitae molestie tempus.</p>
             </div>
           </div>   
@@ -129,7 +129,7 @@
     </section>
     <!-- Término sección destacados -->
     <!-- Inicio formulario de contacto -->
-    <section class="form_contacto pb-4">
+    <section id="form_contacto" class="pb-4">
       <h1 class="title1 pt-5 pb-4 text-white">CONTACTO</h1>
       <hr class="linea text-white">
       <div class="mb-3 text-white pt-4">
@@ -148,11 +148,18 @@
         <button type="submit" class="btn mb-3 text-white" style="background-color: #228BA0;">Enviar</button>
       </div>
     </section>
-     <!-- Termino formulario de contacto -->    
-
-
-
-
+    <!-- Termino formulario de contacto --> 
+    <!-- Inicio del footer -->
+    <footer class="footer d-flex align-items-center">
+      <h5 class="text-white">VIAJES CHILE</h5>
+      <div class="icons_rrss ms-md-auto">
+        <i class="fa-brands fa-github fa-lg px-1" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-linkedin fa-lg px-1" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-square-twitter fa-lg px-1" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-square-facebook fa-lg px-1" style="color: #ffffff;"></i>
+      </div>
+    </footer>   
+    
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
