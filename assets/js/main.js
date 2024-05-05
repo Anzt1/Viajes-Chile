@@ -1,3 +1,6 @@
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
 var enviarFormulario=$('#enviarFormulario')
 $(function(){
     enviarFormulario.click(function(e){
@@ -5,10 +8,5 @@ $(function(){
     })
     $('.card').click(function(e){
         $('.card-text').toggle();
-    })
-    // $('#cuadro').focus(function(e){
-    //     $(this).css({
-    //         border:'3px solid red'
-    //     })
     })
 })
